@@ -1,11 +1,15 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
+import Home from './components/home'
 
 function App() {
 
   return (
-      <div class='flex items-center justify-center w-screen h-screen' >
-        <p>Hola Mundo!</p>
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </BrowserRouter>
   )
 }
 
