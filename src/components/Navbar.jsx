@@ -5,7 +5,7 @@ import search from "../utils/images/search.svg";
 
 function Navbar() {
   return (
-    <div className="flex justify-between p-8 relative w-screen top-0 h-1/5">
+    <div className="flex justify-between py-8 px-32 relative w-screen top-0 h-1/5">
       <img src={logo} alt="logo not found" />
       <div className="w-72 h-14 flex items-center rounded-2xl bg-white shadow-md divide-x">
         <input className="w-6/12 px-5 py-2.5 text-sm" />
